@@ -3,7 +3,7 @@ import torch
 from torch.utils.data import DataLoader, Dataset
 from scipy.stats import bernoulli
 from .models.model import FedModel
-from .models.pruned_layers import *
+# from .models.pruned_layers import *
 from .models.dense_layers import *
 from .models.masked_layers import *
 import copy

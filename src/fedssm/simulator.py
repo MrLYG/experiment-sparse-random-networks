@@ -2,8 +2,8 @@ import torch
 from torch.utils.data import DataLoader
 import numpy as np
 from .server import Server
-from .utils.load_dataset import split_dataset
-from .utils.non_iid_cifar import get_data_loaders
+# from .utils.load_dataset import split_dataset
+# from .utils.non_iid_cifar import get_data_loaders
 from .utils.output import create_output_folder
 from .client import Client
 from torch.utils.tensorboard import SummaryWriter
